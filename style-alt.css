@@ -55,6 +55,20 @@ a:hover {
     height: auto;
 }
 
+.pairing-img {
+    position: fixed;
+    background: none;
+    padding: 6px 10px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 1000;
+    max-width: 400px;
+    height: auto;
+}
+
+
 /*.reveal-content img {
     max-width: 500px;
 }*/
